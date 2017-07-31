@@ -6,13 +6,15 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
       <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
       <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
       <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-
+     
    </head>
    <body>
       
@@ -99,9 +101,9 @@
                     <hr>
                        <div class="row" >
                            <!-- bitcoin donation link -->
-                           <button style="margin-right:20px;" data-clipboard-text="132FRF6ZLPKJ1FsYqjNuwyF9t5m7W6HUfX" data-toggle="tooltip" title="Copy BTC address"><i class="fa fa-btc fa-4x" aria-hidden="true"></i></button>
+                           <button id="copybutton" class="btn copybutton" style="margin-right:20px;" data-clipboard-action="copy" data-clipboard-text="132FRF6ZLPKJ1FsYqjNuwyF9t5m7W6HUfX" data-toggle="tooltip" title="Copy BTC address"><i class="fa fa-btc fa-4x" aria-hidden="true"></i></button>
                           <!-- paypal donation link -->
-                          <button data-toggle="tooltip" title="Click to donate via PayPal"> <a href="https://paypal.me/trophonix" ><i class="fa fa-paypal fa-4x" aria-hidden="true"></i> </a> </button>
+                          <button class="btn" data-toggle="tooltip" title="Click to donate via PayPal"> <a href="https://paypal.me/trophonix" ><i class="fa fa-paypal fa-4x" aria-hidden="true"></i> </a> </button>
                        </div>
 
             </div>   
